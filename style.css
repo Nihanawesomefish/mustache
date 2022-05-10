@@ -1,0 +1,16 @@
+h3{
+font-size: 25px !important;
+}
+canvas{
+animation-name: ABC;
+animation-duration: 8000ms; 
+animation-iteration-count: infinite;   
+}
+@keyframes ABC{
+0%{box-shadow: 1px 1px 40px red;}
+10%{box-shadow: 1px 1px 40px orange;}
+20%{box-shadow: 1px 1px 40px yellow;}
+30%{box-shadow: 1px 1px 40px green;}
+40%{box-shadow: 1px 1px 40px blue;}
+50%{box-shadow: 1px 1px 40px rgb(247, 0, 255);}
+}
